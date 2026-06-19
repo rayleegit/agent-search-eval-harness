@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-search-eval-harness"
+version = "0.1.0"
+description = "Offline and live evaluation harness for search-grounded agents"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Raymond Lee" }]
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+search-eval = "search_eval_harness.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

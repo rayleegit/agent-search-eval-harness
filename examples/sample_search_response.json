@@ -1,0 +1,27 @@
+{
+  "results": {
+    "web": [
+      {
+        "title": "You.com Docs",
+        "url": "https://you.com/docs/welcome",
+        "snippets": [
+          "In 2026, the You.com docs present APIs for AI products that need current web context."
+        ]
+      },
+      {
+        "title": "Grounding with citations",
+        "url": "https://you.com/docs/capabilities/grounding-llm-responses-with-citations",
+        "snippets": [
+          "A grounded answer should make it easy to trace an important claim back to the retrieved source."
+        ]
+      },
+      {
+        "title": "MCP server for web search",
+        "url": "https://you.com/docs/capabilities/mcp-server-for-web-search",
+        "snippets": [
+          "MCP-compatible clients can use You.com tools without making the user leave the assistant workflow."
+        ]
+      }
+    ]
+  }
+}
